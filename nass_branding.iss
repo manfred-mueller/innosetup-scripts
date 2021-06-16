@@ -36,8 +36,9 @@ DisableProgramGroupPage=yes
 ; and Features)
 Uninstallable = no
 CreateUninstallRegKey = no
-Password=nass-ek
+Password=password
 ArchitecturesInstallIn64BitMode=x64
+SignTool=Certum
 
 [Languages]
 Name: "german"; MessagesFile: "compiler:Languages\German.isl"
