@@ -31,6 +31,7 @@ Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 AlwaysRestart=yes
+SignTool=Certum
 
 [Languages]
 Name: "german"; MessagesFile: "compiler:Languages\German.isl"

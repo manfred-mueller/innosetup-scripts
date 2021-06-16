@@ -30,6 +30,7 @@ UninstallDisplayIcon=D:\Bilder\nass-ek.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+SignTool=Certum
 
 [Languages]
 Name: "german"; MessagesFile: "compiler:Languages\German.isl"

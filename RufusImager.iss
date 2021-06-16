@@ -3,7 +3,7 @@
 
 #define MyAppName "Rufus Imager"
 #define MyAppShortName "rufus"
-#define MyAppVersion "3.13"
+#define MyAppVersion "3.14"
 #define MyAppExeName MyAppShortName + "-" + MyAppVersion + ".exe"
 #define MyAppPublisher "NASS e.K."
 #define MyAppURL "https://www.nass-ek.de"
@@ -63,7 +63,7 @@ Root: HKCR; Subkey: "{#MyAppName}\shell\open\command";  ValueData: """{app}\{#My
 [Code]
 procedure InitializeWizard();
 begin
-    idpAddFile('https://github.com/pbatard/rufus/releases/download/v3.13/{#MyAppExeName}', ExpandConstant('{tmp}\{#MyAppExeName}'));
+    idpAddFile('https://github.com/pbatard/rufus/releases/download/v3.14/{#MyAppExeName}', ExpandConstant('{tmp}\{#MyAppExeName}'));
 
     idpDownloadAfter(wpReady);
 end;

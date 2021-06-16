@@ -24,13 +24,14 @@ DisableProgramGroupPage=yes
 LicenseFile=D:\Dokumente\gpl_de.txt
 ArchitecturesInstallIn64BitMode=x64
 PrivilegesRequired=admin
-OutputBaseFilename=lastknowngood_setup
+OutputBaseFilename=lastknowngoodw10_setup
 SetupIconFile=D:\Bilder\nass-ek.ico
 UninstallDisplayIcon=D:\Bilder\nass-ek.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 AlwaysRestart=yes
+SignTool=Certum
 
 [Registry]
 Root: HKLM; Subkey: "System\CurrentControlSet\Control\Session Manager\Configuration Manager"; ValueName: "BackupCount"; ValueType: Dword; ValueData: "$1"; MinVersion: 0.0,6.0; Flags: uninsdeletekey 
